@@ -1,0 +1,311 @@
+{
+  "apic_base": "0xfee00900",
+  "cr0": "0x80050033",
+  "cr2": "0x0",
+  "cr3": "0x7d88f000",
+  "cr4": "0x350ef8",
+  "cr8": "0x0",
+  "cs": {
+    "attr": "0xcffb",
+    "base": "0x0",
+    "limit": "0xffffffff",
+    "present": true,
+    "selector": "0x23"
+  },
+  "cstar": "0xfffff8067b42b200",
+  "dr0": "0x0",
+  "dr1": "0x0",
+  "dr2": "0x0",
+  "dr3": "0x0",
+  "dr6": "0xffff0ff0",
+  "dr7": "0x400",
+  "ds": {
+    "attr": "0xcff3",
+    "base": "0x0",
+    "limit": "0xffffffff",
+    "present": true,
+    "selector": "0x2b"
+  },
+  "efer": "0xd01",
+  "es": {
+    "attr": "0xcff3",
+    "base": "0x0",
+    "limit": "0xffffffff",
+    "present": true,
+    "selector": "0x2b"
+  },
+  "fpcw": "0x27f",
+  "fpip": "0x0",
+  "fpop": "0x0",
+  "fpst": [
+    {
+      "exp": "0x0",
+      "fraction": "0x0"
+    },
+    {
+      "exp": "0x0",
+      "fraction": "0x0"
+    },
+    {
+      "exp": "0xc003",
+      "fraction": "0xa800000000000000"
+    },
+    {
+      "exp": "0xc003",
+      "fraction": "0xa800000000000000"
+    },
+    {
+      "exp": "0x4004",
+      "fraction": "0x8d2b2c0000000000"
+    },
+    {
+      "exp": "0x400a",
+      "fraction": "0xdc9374c000000000"
+    },
+    {
+      "exp": "0x0",
+      "fraction": "0x0"
+    },
+    {
+      "exp": "0x0",
+      "fraction": "0x0"
+    }
+  ],
+  "fpsw": "0x120",
+  "fptw": "0xffff",
+  "fs": {
+    "attr": "0x40f3",
+    "base": "0x3d5000",
+    "limit": "0x3c00",
+    "present": true,
+    "selector": "0x53"
+  },
+  "gdtr": {
+    "base": "0xfffff8068042cfb0",
+    "limit": "0x57"
+  },
+  "generated_by": "snapshot 0.2.3",
+  "gs": {
+    "attr": "0xcff3",
+    "base": "0x3d3000",
+    "limit": "0xffffffff",
+    "present": true,
+    "selector": "0x2b"
+  },
+  "idtr": {
+    "base": "0xfffff8068042a000",
+    "limit": "0xfff"
+  },
+  "kernel_gs_base": "0xfffff80678205000",
+  "ldtr": {
+    "attr": "0x0",
+    "base": "0x0",
+    "limit": "0x0",
+    "present": false,
+    "selector": "0x0"
+  },
+  "lstar": "0xfffff8067b42b700",
+  "mxcsr": "0x1fa0",
+  "mxcsr_mask": "0xffbf",
+  "pat": "0x7010600070106",
+  "r10": "0x0",
+  "r11": "0x246",
+  "r12": "0x3d3000",
+  "r13": "0x9fda0",
+  "r14": "0x9ed00",
+  "r15": "0x77144770",
+  "r8": "0x2b",
+  "r9": "0x771c674c",
+  "rax": "0x92bb20",
+  "rbp": "0x19f930",
+  "rbx": "0x5",
+  "rcx": "0x0",
+  "rdi": "0x0",
+  "rdx": "0x9b9358",
+  "rflags": "0x202",
+  "rip": "0x4344e1",
+  "rsi": "0xa",
+  "rsp": "0x19e310",
+  "sfmask": "0x4700",
+  "ss": {
+    "attr": "0xcff3",
+    "base": "0x0",
+    "limit": "0xffffffff",
+    "present": true,
+    "selector": "0x2b"
+  },
+  "star": "0x23001000000000",
+  "sysenter_cs": "0x0",
+  "sysenter_eip": "0x0",
+  "sysenter_esp": "0x0",
+  "tr": {
+    "attr": "0x8b",
+    "base": "0xfffff8068042b000",
+    "limit": "0x67",
+    "present": true,
+    "selector": "0x40"
+  },
+  "tsc": "0xc806dc918284",
+  "tsc_aux": "0x0",
+  "xcr0": "0x7",
+  "xmm0": [
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0"
+  ],
+  "xmm1": [
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0"
+  ],
+  "xmm10": [
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0"
+  ],
+  "xmm11": [
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0"
+  ],
+  "xmm12": [
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0"
+  ],
+  "xmm13": [
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0"
+  ],
+  "xmm14": [
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0"
+  ],
+  "xmm15": [
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0"
+  ],
+  "xmm2": [
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0"
+  ],
+  "xmm3": [
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0"
+  ],
+  "xmm4": [
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0"
+  ],
+  "xmm5": [
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0"
+  ],
+  "xmm6": [
+    "0xa",
+    "0x6a003b00000000",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0"
+  ],
+  "xmm7": [
+    "0x1",
+    "0x6a004100000000",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0"
+  ],
+  "xmm8": [
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0"
+  ],
+  "xmm9": [
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0"
+  ]
+}
